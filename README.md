@@ -36,4 +36,5 @@ A.1. In the SQL File, you can find all necessary DB (database) objects to suppor
 
 7. Write a query that returns the average time in days spent by a ship given as a parameter in a voyage for voyages started last month
 
-B. 1. A Web Application that uses the Database described above. The application allows for data visualization as defined by point A.1.7. So far, the application uses for Backend: C#. Using Github forVersion Control during development.
+B. 1.
+  In the Ships Directory, you can find a Web Application that uses the Database described above. The application allows for data visualization as defined by point A.1.7. So far, the application uses for Backend: C#. Using Github for Version Control during development.
