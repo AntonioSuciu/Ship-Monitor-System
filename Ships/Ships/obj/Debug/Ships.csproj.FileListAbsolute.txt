@@ -9,3 +9,14 @@ D:\FACULTATE\Jobs\Projects\Napa\Ships\Ships\obj\Debug\Ships.csproj.GenerateResou
 D:\FACULTATE\Jobs\Projects\Napa\Ships\Ships\obj\Debug\Ships.csproj.CoreCompileInputs.cache
 D:\FACULTATE\Jobs\Projects\Napa\Ships\Ships\obj\Debug\Ships.exe
 D:\FACULTATE\Jobs\Projects\Napa\Ships\Ships\obj\Debug\Ships.pdb
+D:\FACULTATE\Jobs\Projects\Ship-Monitor-System\Ships\Ships\bin\Debug\Ships.exe.config
+D:\FACULTATE\Jobs\Projects\Ship-Monitor-System\Ships\Ships\bin\Debug\Ships.exe
+D:\FACULTATE\Jobs\Projects\Ship-Monitor-System\Ships\Ships\bin\Debug\Ships.pdb
+D:\FACULTATE\Jobs\Projects\Ship-Monitor-System\Ships\Ships\obj\Debug\Ships.csproj.AssemblyReference.cache
+D:\FACULTATE\Jobs\Projects\Ship-Monitor-System\Ships\Ships\obj\Debug\Ships.csproj.SuggestedBindingRedirects.cache
+D:\FACULTATE\Jobs\Projects\Ship-Monitor-System\Ships\Ships\obj\Debug\Ships.Form1.resources
+D:\FACULTATE\Jobs\Projects\Ship-Monitor-System\Ships\Ships\obj\Debug\Ships.Properties.Resources.resources
+D:\FACULTATE\Jobs\Projects\Ship-Monitor-System\Ships\Ships\obj\Debug\Ships.csproj.GenerateResource.cache
+D:\FACULTATE\Jobs\Projects\Ship-Monitor-System\Ships\Ships\obj\Debug\Ships.csproj.CoreCompileInputs.cache
+D:\FACULTATE\Jobs\Projects\Ship-Monitor-System\Ships\Ships\obj\Debug\Ships.exe
+D:\FACULTATE\Jobs\Projects\Ship-Monitor-System\Ships\Ships\obj\Debug\Ships.pdb

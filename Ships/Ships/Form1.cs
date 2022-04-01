@@ -76,13 +76,35 @@ namespace Ships
             {            // set the command object so it knows to execute a stored procedure
                 command.CommandType = CommandType.StoredProcedure;
 
-                command.Parameters.Add("@voyage_ship_id", SqlDbType.Int).Value = textBoxShipId.Text;
+                if (textBoxShipId.Text == ""){
+                    dataAdapterVoyage = new SqlDataAdapter("Select * from Voyage", sqlConnection);
 
-                sqlConnection.Open();
-                dataAdapterVoyage.SelectCommand = command;
-                dataAdapterVoyage.Fill(dt);
-                dataGridViewVoyage.DataSource = dt;
-                sqlConnection.Close();
+                    cb = new SqlCommandBuilder(dataAdapterVoyage);
+
+                    dataAdapterVoyage.Fill(dataSet, "Voyage");
+
+                    bindingSourceVoyage.DataSource = dataSet;
+                    bindingSourceVoyage.DataMember = "Voyage";
+
+                    dataGridViewVoyage.DataSource = bindingSourceVoyage;
+
+                    dataGridViewVoyage.ClearSelection();
+                    dataGridViewVoyage.Rows[bindingSourceVoyage.Position].Selected = true;
+
+
+                }
+
+                else
+                {
+                    command.Parameters.Add("@voyage_ship_id", SqlDbType.Int).Value = textBoxShipId.Text;
+
+                    sqlConnection.Open();
+                    dataAdapterVoyage.SelectCommand = command;
+                    dataAdapterVoyage.Fill(dt);
+                    dataGridViewVoyage.DataSource = dt;
+                    sqlConnection.Close();
+                }
+
             }
 
             catch(Exception ex)
@@ -90,6 +112,11 @@ namespace Ships
                 MessageBox.Show(ex.GetBaseException().ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
